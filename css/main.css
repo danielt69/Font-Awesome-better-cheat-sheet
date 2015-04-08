@@ -1,0 +1,78 @@
+/* ==========================================================================
+	 Author's custom styles
+	 ========================================================================== */
+
+body {
+		padding-top: 50px;
+		padding-bottom: 20px;
+		font-family: 'Open Sans', sans-serif;
+}
+
+span.muted {
+		color: rgba(0, 0, 0, 0.25);
+}
+
+.col-md-4.col-sm-6.col-lg-3:hover span.muted {
+		color: rgba(255, 255, 255, 0.4);
+}
+
+.col-md-4.col-sm-6.col-lg-3 {
+		font-size: 1.1em;
+		line-height: 30px;
+		padding: 5px;
+		border-radius: 5px;
+		cursor: pointer;
+}
+
+.col-md-4.col-sm-6.col-lg-3:hover {
+		background: #000;
+		color: #FFF;
+}
+
+.col-md-4.col-sm-6.col-lg-3,
+.col-md-4.col-sm-6.col-lg-3:hover,
+.col-md-4.col-sm-6.col-lg-3:hover span.muted,
+span.muted {
+		-webkit-transition: all .15s ease;
+		-moz-transition: all .15s ease;
+		-ms-transition: all .15s ease;
+		-o-transition: all .15s ease;
+		transition: all .15s ease;
+}
+
+.col-md-4.col-sm-6.col-lg-3 * {
+		display: inline-block;
+		vertical-align: middle;
+}
+
+i {
+		font-size: 30px !important;
+		line-height: 36px !important;
+		width: 45px !important;
+		padding: 0 10px 0 0;
+}
+
+.container {
+		width: 90% !important;
+}
+
+.chosen_simbol,
+.chosen_simbol i {
+		float: right;
+		line-height: 50px !important;
+		display: block;
+		color: #FFF;
+		font-size: 40px !important;
+		width: auto !important;
+}
+pre {
+	display: inline-block;
+	float: right;
+	padding: 20px !important;	
+}
+h2.heading {
+  text-align: center;
+  width: 220.671875px;
+  margin-right: 0;
+  margin-left: auto;
+}
